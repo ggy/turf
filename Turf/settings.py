@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for Turf project
+# Scrapy settings for TURF project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,14 +9,14 @@
 #     http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #     http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'Turf'
+BOT_NAME = 'TURF'
 
-SPIDER_MODULES = ['Turf.spiders']
-NEWSPIDER_MODULE = 'Turf.spiders'
+SPIDER_MODULES = ['TURF.spiders']
+NEWSPIDER_MODULE = 'TURF.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'Turf (+http://www.yourdomain.com)'
+#USER_AGENT = 'TURF (+http://www.yourdomain.com)'
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS=32
@@ -44,13 +44,13 @@ NEWSPIDER_MODULE = 'Turf.spiders'
 # Enable or disable spider middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'Turf.middlewares.MyCustomSpiderMiddleware': 543,
+#    'TURF.middlewares.MyCustomSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'Turf.middlewares.MyCustomDownloaderMiddleware': 543,
+#    'TURF.middlewares.MyCustomDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -62,7 +62,7 @@ NEWSPIDER_MODULE = 'Turf.spiders'
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    'Turf.pipelines.SomePipeline': 300,
+#    'TURF.pipelines.SomePipeline': 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
