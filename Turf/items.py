@@ -14,6 +14,7 @@ class CourseItem(Item):
     Course = Field()
     Titre = Field()
     Reunion = Field()
+    Reun = Field()
     Num = Field()
     Type = Field()
     Partant = Field()
