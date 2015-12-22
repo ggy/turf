@@ -104,6 +104,6 @@ class ReunionSpider(Spider):
             item['Victoire'] = sel.xpath("td[23]/text()").extract()
             item['PI'] = sel.xpath("td[24]/text()").extract()
 
-            item['URL'] = response.url
+            item['URL'] = response.meta
 
             yield item
